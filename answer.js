@@ -6,7 +6,7 @@ function describeValue(val) {
   }
   return `${typeof val} | ${truFalse}`;
 }
-describeValue(NaN);
+
 
 // Question 2 => Bangladesh Weekend Machine
 function getDayType(dayName) {
@@ -25,7 +25,7 @@ function getDayType(dayName) {
       return "Invalid Day";
   }
 }
-getDayType("satUrday");
+
 
 // Question 3 => username Gatekeeper
 function validateUsername(str) {
@@ -41,7 +41,7 @@ function validateUsername(str) {
   }
   return "Available";
 }
-validateUsername("Admin_Rahim");
+
 
 // Question 4 => Dhaka CNG Fare Meter
 function getCngFare(distance, isNight = false, waitingMinutes = 0) {
@@ -61,7 +61,7 @@ function getCngFare(distance, isNight = false, waitingMinutes = 0) {
   }
   return total;
 }
-getCngFare(5, true, 10);
+
 
 // Qusetion 5 => Run Chase Commentator
 const getChaseVerdict = (target, scored, ballsLeft) => {
@@ -81,5 +81,3 @@ const getChaseVerdict = (target, scored, ballsLeft) => {
     return `Need ${runsNeeded} runs in ${ballsLeft} balls | Tough`;
   return `Need ${runsNeeded} runs in ${ballsLeft} balls | Almost Impossible`;
 };
-
-getChaseVerdict(200, 200, 12);
