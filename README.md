@@ -1,15 +1,10 @@
-# abracadabra
+# Assignment 1: Problem Solving with TypeScript & OOP
 
-To install dependencies:
+This assignment contains eight TypeScript solutions covering types, functions, tuples, generics, interfaces, inheritance, and asynchronous programming, along with two blog posts.
 
-```bash
-bun install
-```
+The coding solutions are in [solutions.ts](./solutions.ts).
 
-To run:
+Blog posts:
 
-```bash
-bun run 
-```
-
-This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+- [Type Narrowing in TypeScript](./type-narrowing.md)
+- [Access Modifiers in TypeScript](./access-modifiers.md)
